@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
+ * main - runs the file output
  *
- * main- runs the file output
- *
- * return returds a zero if the function is successful
- * 
+ * Return: returds a zero if the function is successful 
  */
 
 int main(void)
