@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - runs the file output
- *
- * Return: returds a zero if the function is successful 
- */
-
+ * main - will print function output
+ * Return: will return zero if run success
+ */a
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-	
 }
