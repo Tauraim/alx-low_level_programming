@@ -1,18 +1,22 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
- * main - entry point
- * Description: 'print alphabet in uppercase'
- * Return: return zero if successful
+ * print_alphabet - Entry point
+ * Return:0
  */
-int main(void)
-{
-	int (ch);
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+void print_alphabet(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		_putchar (ch);
+		_putchar(c);
+		c++;
+
 	}
-	_putchar ('\n');
-	return (0);
+	_putchar('\n');
+
 }
+
