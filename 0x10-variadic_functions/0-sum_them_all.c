@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <unistd.h>
 #include "variadic_functions.h"
 #include <stdarg.h>
 
@@ -27,4 +29,3 @@ int sum_them_all(const unsigned int n, ...)
 
 	return (sum);
 }
-i
